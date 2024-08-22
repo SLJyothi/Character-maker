@@ -1,0 +1,78 @@
+// ------------------------------------------
+// VARIABLES
+// ------------------------------------------
+
+// Fonts
+// ------------------------------------------
+
+$font-primary: "AcnhDialog";
+$font-secondary: "AcnhTitle";
+$font-family-primary: $font-primary,
+Arial,
+sans-serif;
+$font-family-secondary: $font-primary,
+serif;
+
+$font-size-body: 16px;
+$font-size-base: 1rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-base: 1rem;
+$text-lg: 1.125rem;
+$text-xl: 1.25rem;
+$text-2xl: 1.5rem;
+$text-3xl: 1.875rem;
+$text-4xl: 2.5rem;
+$text-5xl: 3rem;
+$text-6xl: 4.5rem;
+
+// Color palette
+// -----------------------------------------
+
+// Colors
+
+$primary: (
+	100: #6d0469,
+	200: #dba0fe,
+	300: #efcaff,
+);
+$secondary: (
+	100: #f15b90,
+	200: #f15b90,
+);
+$tertiary: (
+	100: #fdccff,
+	200: #eb74ef,
+);
+$accent: (
+	100: #ba9461,
+	200: #867968,
+);
+$base: #ffffff;
+
+
+$grey-100: #c4c4c4;
+$grey-200: #959595;
+$grey-300: #666;
+$grey-400: #333;
+
+
+
+// Scaffolding
+// ------------------------------------------
+$padding: 70px;
+$padding-s: 20px;
+
+$break-tablet: 768px;
+
+// Transitions
+// ------------------------------------------
+$transition-color: color 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+$transition-bgc: background-color 0.15s ease-in-out;
+
